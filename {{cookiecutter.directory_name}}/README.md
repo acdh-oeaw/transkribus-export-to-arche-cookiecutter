@@ -3,7 +3,9 @@ repo to develop workflow/scripts to derive arche-metadata from transkribus expor
 
 ## how to export and organize the exported files
 
-* see https://github.com/arthur-schnitzler/schnitzler-zeitungen-static/issues/8#issuecomment-2018591171
+* make sure to set "Filename pattern" to `${docId}_${pageNr}`; have a look at the screenshot
+
+![alt text](http://url/to/export_screenshot.png)
 
 * download and unzip the finished downloaded documents
 * move the unzipped documents into `export` folder; be aware to only move the folder with named after the document ID and not its root folder with the export id (somehting like `export_job_8515775`)
