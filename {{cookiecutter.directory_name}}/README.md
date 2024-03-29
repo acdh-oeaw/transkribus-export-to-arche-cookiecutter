@@ -5,7 +5,7 @@ repo to develop workflow/scripts to derive arche-metadata from transkribus expor
 
 * make sure to set "Filename pattern" to `${docId}_${pageNr}`; have a look at the screenshot
 
-![alt text](http://url/to/export_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/acdh-oeaw/transkribus-export-to-arche-cookiecutter/main/%7B%7Bcookiecutter.directory_name%7D%7D/export_screenshot.png)
 
 * download and unzip the finished downloaded documents
 * move the unzipped documents into `export` folder; be aware to only move the folder with named after the document ID and not its root folder with the export id (somehting like `export_job_8515775`)
