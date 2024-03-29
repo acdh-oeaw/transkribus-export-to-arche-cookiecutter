@@ -1,0 +1,14 @@
+@prefix acdh: <https://vocabs.acdh.oeaw.ac.at/schema#> .
+@prefix acdhi: <https://id.acdh.oeaw.ac.at/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://id.acdh.oeaw.ac.at/hansi4ever> a acdh:Person ;
+    acdh:hasTitle "Foo Bar Person"@de .
+
+<https://id.acdh.oeaw.ac.at/{{cookiecutter.directory_name}}> a acdh:TopCollection ;
+    acdh:hasDescription """Eine super Beschreibung"""@de ;
+    acdh:hasTitle "{{cookiecutter.top_col_title}}"@de ;
+    acdh:hasLifeCycleStatus <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active> ;
+    acdh:hasCompleteness "Diese Sammlung wird sukzessive erweitert."@de ;
+    acdh:hasSubject "Das braucht man!!!"@de .

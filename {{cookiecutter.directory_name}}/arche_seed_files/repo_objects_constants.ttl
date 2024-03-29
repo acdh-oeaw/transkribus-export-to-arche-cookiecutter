@@ -1,0 +1,11 @@
+@prefix acdh: <https://vocabs.acdh.oeaw.ac.at/schema#> .
+
+<https://foo/bar> acdh:hasCurator <https://id.acdh.oeaw.ac.at/hansi4ever> ;
+    acdh:hasContact <https://id.acdh.oeaw.ac.at/hansi4ever> ;
+    acdh:hasContributor <https://id.acdh.oeaw.ac.at/hansi4ever> ;
+    acdh:hasDepositor <https://id.acdh.oeaw.ac.at/hansi4ever> ;
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0> ;
+    acdh:hasLicensor <https://id.acdh.oeaw.ac.at/none> ;
+    acdh:hasMetadataCreator <https://id.acdh.oeaw.ac.at/hansi4ever> ;
+    acdh:hasOwner <https://id.acdh.oeaw.ac.at/none> ;
+    acdh:hasRightsHolder <https://id.acdh.oeaw.ac.at/none> .
